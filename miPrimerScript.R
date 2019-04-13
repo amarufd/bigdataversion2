@@ -34,5 +34,8 @@ variableUno <- variableUno^2 + 1
 source("funciones.R")
 variableUno <- funcionUno(1,2)
 
-vel <- velocidad(10,5)
+vel <- velocidad(10.5,0)
+res <- resto(3,4,7)
+
+res <- algebra(3,4,7)
 
