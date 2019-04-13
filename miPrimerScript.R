@@ -4,6 +4,8 @@
 library(ggplot2)
 
 
+
+
 variableUno <- 1
 variableDos <- 5
 
@@ -29,7 +31,8 @@ FALSE && TRUE
 ## ===========================
 variableUno <- variableUno^2 + 1
 
+source("funciones.R")
+variableUno <- funcionUno(1,2)
 
-funcionUno()
-
+vel <- velocidad(10,5)
 
